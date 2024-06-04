@@ -1,0 +1,10 @@
+escolher exame critico - ainda a ser feito
+escolher curso - falta update e delete
+afunilar - falta update e delete
+criar mapa - falta update e delete
+mapa de estudo - falta update e delete
+conteudo - falta update e delete
+curso - falta update e delete
+disciplina - falta update e delete
+exame critico - falta update e delete
+usuario - falta update e delete

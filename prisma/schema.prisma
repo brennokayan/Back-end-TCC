@@ -1,0 +1,152 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ExameCritico {
+  id                   String                 @id @default(cuid())
+  nome                 String
+  EscolherExameCritico EscolherExameCritico[]
+  CriarMapa            CriarMapa[]
+}
+
+model Usuario {
+  id                         String                 @id @default(cuid())
+  nome                       String
+  idade                      Int
+  email                      String                 @unique
+  senha                      String
+  token                      String                 @default(uuid())
+  notaAlmejada               Int?
+  notaAtual                  Int? @default(0)
+  dataInicialEstudo          String?
+  dataFinalEstudo            String?
+  ultimoTesteAvaliativo      String?
+  dataUltimoTesteAvaliativo  String?
+  ultimoConteudoEstudado     String?
+  dataUltimoConteudoEstudado String?
+  // ilhaAtual String
+  EscolherExameCritico       EscolherExameCritico[]
+  EscolherCurso              EscolherCurso[]
+  CriarMapa                  CriarMapa[]
+  ilhas                      Ilhas[]
+  escolherIlha               escolherIlha[]
+}
+
+model MapaDeEstudo {
+  id          String      @id @default(cuid())
+  qtdeDeIlhas Int
+  progresso   Int
+  ilhaAtual   String
+  CriarMapa   CriarMapa[]
+}
+
+model Curso {
+  id            String          @id @default(cuid())
+  nome          String
+  conteudo      Conteudo[]
+  conteudoId    String?
+  EscolherCurso EscolherCurso[]
+  Afunilar      Afunilar[]
+  Disciplina    Disciplina[]
+  CriarMapa     CriarMapa[]
+}
+
+model Conteudo {
+  id             String      @id @default(cuid())
+  nome           String
+  tipoDeConteudo String
+  urlConteudo    String?
+  disciplinaId   String?
+  Disciplina     Disciplina? @relation(fields: [disciplinaId], references: [id])
+  Curso          Curso?      @relation(fields: [cursoId], references: [id])
+  cursoId        String?
+  Afunilar       Afunilar[]
+  CriarMapa      CriarMapa[]
+  Ilhas          Ilhas?      @relation(fields: [ilhasId], references: [id])
+  ilhasId        String?
+}
+
+model Disciplina {
+  id             String @id @default(cuid())
+  nome           String
+  pesoDisciplina Int
+  cursoId        String
+  Curso          Curso  @relation(fields: [cursoId], references: [id])
+
+  Conteudo Conteudo[]
+  Afunilar Afunilar[]
+  Ilhas    Ilhas?     @relation(fields: [ilhasId], references: [id])
+  ilhasId  String?
+}
+
+model EscolherExameCritico {
+  id             String       @id @default(cuid())
+  idExameCritico String
+  idUsuario      String
+  ExameCritico   ExameCritico @relation(fields: [idExameCritico], references: [id])
+  Usuario        Usuario      @relation(fields: [idUsuario], references: [id])
+}
+
+model EscolherCurso {
+  id        String  @id @default(cuid())
+  idUsuario String
+  idCurso   String
+  Curso     Curso   @relation(fields: [idCurso], references: [id])
+  Usuario   Usuario @relation(fields: [idUsuario], references: [id])
+}
+
+model Afunilar {
+  id           String     @id @default(cuid())
+  idConteudo   String
+  idCurso      String
+  idDisciplina String
+  Disciplina   Disciplina @relation(fields: [idDisciplina], references: [id])
+  Conteudo     Conteudo   @relation(fields: [idConteudo], references: [id])
+  Curso        Curso      @relation(fields: [idCurso], references: [id])
+}
+
+model CriarMapa {
+  id String @id @default(cuid())
+
+  idUsuario      String
+  idCurso        String
+  idExameCritico String
+  idMapaDeEstudo String
+
+  Usuario      Usuario      @relation(fields: [idUsuario], references: [id])
+  Curso        Curso        @relation(fields: [idCurso], references: [id])
+  ExameCritico ExameCritico @relation(fields: [idExameCritico], references: [id])
+  MapaDeEstudo MapaDeEstudo @relation(fields: [idMapaDeEstudo], references: [id])
+  Conteudo     Conteudo?    @relation(fields: [conteudoId], references: [id])
+  conteudoId   String?
+}
+
+model escolherIlha {
+  id        String  @id @default(cuid())
+  idUsuario String
+  idIlha    String
+  Usuario   Usuario @relation(fields: [idUsuario], references: [id])
+  Ilhas     Ilhas   @relation(fields: [idIlha], references: [id])
+}
+
+model Ilhas {
+  id           String         @id @default(cuid())
+  nome         String
+  descricao    String
+  pesoIlha     Int?
+  conteudo     Conteudo[]
+  Disciplina   Disciplina[]
+  Usuario      Usuario[]
+  escolherIlha escolherIlha[]
+}

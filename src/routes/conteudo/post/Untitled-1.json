@@ -1,0 +1,404 @@
+[
+    {
+        "nome": "Leitura e interpretação de textos",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Gêneros textuais",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Funções da linguagem",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Figuras de linguagem",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Gramática (morfologia, sintaxe, semântica)",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Variação linguística",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Literatura (escolas literárias, movimentos literários, autores e obras)",
+        "disciplinaId": "clw6t15780000bdwhm0g2nk7u",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Compreensão de textos (Inglês e Espanhol)",
+        "disciplinaId": "clw6t4os20005bdwh8m50bslf",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Leitura e interpretação (Inglês e Espanhol)",
+        "disciplinaId": "clw6t4os20005bdwh8m50bslf",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Estratégias de leitura (Inglês e Espanhol)",
+        "disciplinaId": "clw6t4os20005bdwh8m50bslf",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Conectivos e marcadores textuais (Inglês e Espanhol)",
+        "disciplinaId": "clw6t4os20005bdwh8m50bslf",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Impacto das tecnologias na sociedade",
+        "disciplinaId": "clw6t22ss0002bdwha45rn3in",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Comunicação digital",
+        "disciplinaId": "clw6t22ss0002bdwha45rn3in",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Redes sociais",
+        "disciplinaId": "clw6t22ss0002bdwha45rn3in",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Cultura digital",
+        "disciplinaId": "clw6t22ss0002bdwha45rn3in",
+        "tipoDeConteudo": "Linguagens",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Operações básicas",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj  ",
+        "tipoDeConteudo": "cltjazvx70002tohgg9ft0frj",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Frações",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj ",
+        "tipoDeConteudo": "Matemática",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Porcentagem",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+        "tipoDeConteudo": "Matemática",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Razão e proporção",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+        "tipoDeConteudo": "Matemática",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Equações e inequações",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+        "tipoDeConteudo": "Matemática",
+        "urlConteudo": ""
+    },
+    {
+        "nome": "Funções (linear, quadrática, exponencial e logarítmica)",
+        "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+        "tipoDeConteudo": "Matemática",
+        "urlConteudo": ""
+    },
+    {
+    "nome": "Progressões aritméticas e geométricas",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Geometria plana",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Geometria espacial",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Trigonometria",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Análise combinatória",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Probabilidade",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Medidas de tendência central (média, mediana, moda)",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Gráficos e tabelas",
+    "disciplinaId": "cltjazvx70002tohgg9ft0frj",
+    "tipoDeConteudo": "Matemática",
+    "urlConteudo": ""
+},
+{
+    "nome": "Cinemática",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Dinâmica",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Energia e trabalho",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Ondulatória",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Termodinâmica",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Óptica",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Eletricidade",
+    "disciplinaId": "clw6t1m2b0001bdwh21028ez5",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Estrutura atômica",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Tabela periódica",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Ligações químicas",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Reações químicas",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Estequiometria",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Termoquímica",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Eletroquímica",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Química orgânica",
+    "disciplinaId": "clw6t2hpw0003bdwhkw4ou85x",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Citologia",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Genética",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Evolução",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Ecologia",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Fisiologia humana",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Reino animal e vegetal",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "Microbiologia",
+    "disciplinaId": "clw6t65z40007bdwhqvoroxsz",
+    "tipoDeConteudo": "Ciências da Natureza",
+    "urlConteudo": ""
+},
+{
+    "nome": "História do Brasil",
+    "disciplinaId": "clw6t6wqr0008bdwhnnggfg3g",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "História geral (Antiga, Medieval, Moderna e Contemporânea)",
+    "disciplinaId": "clw6t6wqr0008bdwhnnggfg3g",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Movimentos sociais",
+    "disciplinaId": "clw6t6wqr0008bdwhnnggfg3g",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Cultura e sociedade",
+    "disciplinaId": "clw6t6wqr0008bdwhnnggfg3g",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Geografia física (clima, vegetação, relevo)",
+    "disciplinaId": "clw6t5ntm0006bdwhomsl7os4",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Geografia humana",
+    "disciplinaId": "clw6t5ntm0006bdwhomsl7os4",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Geopolítica",
+    "disciplinaId": "clw6t5ntm0006bdwhomsl7os4",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Meio ambiente e sustentabilidade",
+    "disciplinaId": "clw6t5ntm0006bdwhomsl7os4",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Pensadores clássicos e contemporâneos",
+    "disciplinaId": "clw6t8xdt0009bdwhe7xdscbe",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Ética",
+    "disciplinaId": "clw6t8xdt0009bdwhe7xdscbe",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Política",
+    "disciplinaId": "clw6t8xdt0009bdwhe7xdscbe",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Lógica",
+    "disciplinaId": "clw6t8xdt0009bdwhe7xdscbe",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Teorias sociológicas",
+    "disciplinaId": "clw6t9ct7000abdwho1noeb2q",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Cultura e sociedade",
+    "disciplinaId": "clw6t9ct7000abdwho1noeb2q",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Estratificação social",
+    "disciplinaId": "clw6t9ct7000abdwho1noeb2q",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+},
+{
+    "nome": "Movimentos sociais",
+    "disciplinaId": "clw6t9ct7000abdwho1noeb2q",
+    "tipoDeConteudo": "Ciências Humanas",
+    "urlConteudo": ""
+}
+]
